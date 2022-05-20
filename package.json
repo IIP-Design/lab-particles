@@ -1,0 +1,19 @@
+{
+  "name": "@gpa-lab/particles",
+  "version": "0.0.1",
+  "description": "Shared library of commonly used utility functions.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IIP-Design/lab-particles.git"
+  },
+  "author": "U.S. Department of State, Bureau of Global Public Affairs Digital Lab <gpa-lab-devs@fan.gov>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/IIP-Design/lab-particles/issues"
+  },
+  "homepage": "https://github.com/IIP-Design/lab-particles#readme"
+}
