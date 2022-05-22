@@ -3,15 +3,24 @@
   "version": "0.0.1",
   "description": "Shared library of commonly used utility functions.",
   "main": "index.js",
+  "author": "U.S. Department of State, Bureau of Global Public Affairs Digital Lab <gpa-lab-devs@fan.gov>",
+  "license": "MIT",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@apollo/client": "^3.4.13",
+    "formik": "^2.2.9",
+    "lodash.flowright": "^3.5.0",
+    "prop-types": "^15.7.2",
+    "semantic-ui-react": "^2.0.4",
+    "react": "^17.0.2",
+    "react-google-login": "^5.2.2"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/IIP-Design/lab-particles.git"
   },
-  "author": "U.S. Department of State, Bureau of Global Public Affairs Digital Lab <gpa-lab-devs@fan.gov>",
-  "license": "MIT",
   "bugs": {
     "url": "https://github.com/IIP-Design/lab-particles/issues"
   },

@@ -1,0 +1,66 @@
+@import 'styles/colors.scss';
+@import 'styles/form.scss';
+@import 'styles/mixins.scss';
+
+.login { 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &_form {
+    width: 380px;
+    padding: 30px 30px 40px 30px;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    border: 1px solid $alt-grey;
+
+    h1 {
+      padding-bottom: 8px;
+      border-bottom: 1px solid $alt-grey;
+      text-align: center;
+    }
+
+    .or {
+      text-align: center;
+      margin: 15px 0;
+      color: $blue;
+    } 
+
+    .btn {
+     position: relative;
+     text-align: center;
+     vertical-align: middle;
+     height: 46px;
+     img {
+       position: absolute;
+       top: 10px;
+       left: 15px;
+      }
+    }
+
+    .error {
+      color: red;
+      font-size: 14px;
+      line-height: 1.5;
+      margin-bottom: 1em;
+    }
+  } 
+
+  &_offical {
+    max-width: 800px;
+    font-size: 14px;
+    background-color: $light-grey;
+    padding: 20px 60px 20px 60px;
+    margin-top: 30px;
+
+    .warning {
+      text-align: center;
+      font-weight: bold;
+    }
+  }
+
+  :focus {
+    @include focus-styling;
+  }
+}
