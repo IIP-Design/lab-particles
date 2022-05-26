@@ -10,12 +10,17 @@
   },
   "dependencies": {
     "@apollo/client": "^3.4.13",
+    "axios": "^0.26.1",
     "formik": "^2.2.9",
+    "google-auth-library": "^7.14.1",
+    "jsonwebtoken": "^8.5.1",
+    "jwk-to-pem": "^2.0.5",
     "lodash.flowright": "^3.5.0",
     "prop-types": "^15.7.2",
     "semantic-ui-react": "^2.0.4",
     "react": "^17.0.2",
-    "react-google-login": "^5.2.2"
+    "react-google-login": "^5.2.2",
+    "yup": "^0.32.9"
   },
   "repository": {
     "type": "git",
